@@ -1,0 +1,67 @@
+
+@media screen and (max-width : 1000px)
+{
+  header
+  {
+    padding-bottom: 150px;
+  }
+  nav
+  {
+    margin-left: 0px;
+    margin-top: 10px;
+  }
+  h1
+  {
+    font-size: 2em;
+  }
+  .nav
+  {
+    font-size: 100%;
+  }
+  .product
+  {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .product a
+  {
+    width: 300px;
+    margin: 10px;
+    position: relative;
+    overflow: hidden;
+  }
+  .product a img
+  {
+    width: 50%;
+    height: auto;
+    transition: transform .2s;
+    margin-bottom: 3px;
+  }
+  .product a img
+  {
+    transform: scale(1.1);
+  }
+  .product a
+  {
+    background-color: rgb(112, 177, 238);
+  }
+  
+  h4, .description_item
+  {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    color: rgb(36, 45, 173);
+    padding: 10px;
+    margin: 0;
+    opacity: 0;
+    transition: opacity .3s;
+    font-size: 2em;
+  }
+  
+  .product a h4, .description_item
+  {
+    opacity: 3;
+  }
+}
