@@ -107,6 +107,7 @@ nav input
 }
 .acceuil button:hover
 {
+    transition: 1.2s;
     background-color: aqua;
     color: green;
     border-color: blueviolet;
@@ -158,6 +159,7 @@ nav input
 }
 .lesSymptones ul a:hover
 {
+    transition: 1.2s;
     background-color: rgb(12, 31, 36);
     color: #fff;
 }
