@@ -68,9 +68,14 @@ nav input
     backdrop-filter: blur(10px);
     padding: 7px;
     border-radius: 20px;
-    columns: rgb(200, 400, 950);
+    color: rgb(200, 400, 950);
     border: 2px solid rgb(200, 400, 950);
     width: 130px;
+}
+nav input:hover
+{
+    transition: 1.5s;
+    width: 180px;
 }
 .acceuil
 {
@@ -84,11 +89,21 @@ nav input
     color: wheat;
     font-size: 2em;
 }
+.acceuil h2:hover
+{
+    transition: 1.5s;
+    transform: scale(1.5);
+}
 .h3_acceuil
 {
     font-family: 'Courier New', Courier, monospace;
     text-align: center;
     border-bottom: 1px solid wheat;
+}
+.h3_acceuil:hover
+{
+    transition: 1.5s;
+    transform: scale(1.5);
 }
 .acceuil button
 {
@@ -151,6 +166,11 @@ nav input
 {
     margin-top: 10px;
 }
+.lesSymptones ul li:hover
+{
+    transition: 1.2s;
+    transform: scale(1.2);
+}
 .lesSymptones ul li a
 {
     margin: 10px;
@@ -192,6 +212,7 @@ nav input
 }
 .product a:hover img
 {
+    transition: 1.5s;
     transform: scale(1.1);
 }
 .description
@@ -209,6 +230,7 @@ nav input
 .product a:hover .description
 {
     opacity: 3;
+    transition: 1.5s;
 }
 footer
 {
